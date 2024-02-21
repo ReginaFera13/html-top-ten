@@ -9,34 +9,197 @@
   <body>
     <header title="I'm a Header!">
       <h1 title="I'm an H1">My Top Ten</h1>
-      <img title="I'm an img" src="http://www.incrediblethings.com/wp-content/uploads/2012/07/cat-votes-for-himself.jpg">
+      <img title="I'm an img" src="./resources/me.jpg">
     </header>
-    <section class="section" title="I'm The HTML Section">
+    <section id="HTML" class="section" title="I'm The HTML Section">
       <h2 title="I'm an H2">HTML</h2>
       <p title="I'm a p">Here are a few HTML things I like:</p>
       <!-- Copy this Definition Div for each HTML thing you choose -->
       <div class="definition" title="I'm a Definition Div!">
-        <h3>TERM TITLE</h3>
+        <h3>img</h3>
         <p>Describe this term, and make an example of how its used:</p>
         <!-- EXAMPLE CODE GOES HERE -->
-      <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-      <a href="#">resource link</a>
-    </div>
-  </section>
-  <section class="section" title="I'm The CSS Section">
-    <h2 title="I'm an H2">CSS Things</h2>
-    <p title="I'm a p">Here are a few CSS things I like:</p>
-    <!-- Copy this Definition Div for each CSS thing you choose -->
-    <div class="definition" title="I'm a Definition Div!">
-      <h3>TERM TITLE</h3>
-      <p>Describe this term, and make an example of how its used:</p>
-      <!-- EXAMPLE CODE GOES HERE -->
-    <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-    <a href="#">resource link</a>
-  </div>
-</section>
-<footer>
-  <p>Made with gusto by <a href="#">YOUR NAME HERE</a></p>
-</footer>
-</body>
+        <p>The <code>&ltimg&gt</code> tag is a self-closing tag that lets us add images to our site. This is a great way to easily add some visuals!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>&ltimg src="./name-of-file.jpg"&gt</code>
+        </pre>
+        <p>Example of use:</p>
+        <p>With the <code>&ltimg&gt</code> tag, I can show you my furbabies!</p>
+        <div class="images">
+          <img src="./resources/thor.jpg">
+          <img src="./resources/miko.jpg">
+          <img src="./resources/winsey.jpg">
+        </div>
+        <a href="https://htmlreference.io/element/img/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>form</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>&ltform&gt&lt/form&gt</code> tag lets us add forms to our site. This is a great way to collect user input!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>&ltform&gt
+            &ltinput type="text" placeholder="name"&gt
+          &lt/form&gt</code>
+        </pre>
+        <p>Example of use:</p>
+        <p>With the <code>&ltform&gt&lt/form&gt</code> tag, the code above displays as:</p>
+        <form>
+          <input type="text" placeholder="name">
+        </form>
+        <a href="https://htmlreference.io/element/form/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>table</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>&lttable&gt&lt/table&gt</code> tag lets us add tables to our site. This is a great way to display data!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>&lttable&gt
+            &ltthead&gt
+              &lttr&gt
+                &ltth&gtName&lt/th&gt
+                &ltth&gtAge&lt/th&gt
+              &lt/tr&gt
+            &lt/thead&gt
+            &lttbody&gt
+              &lttr&gt
+                &lttd&gtAlice&lt/td&gt
+                &lttd&gt35&lt/td&gt
+              &lt/tr&gt
+              &lttr&gt
+                &lttd&gtBob&lt/td&gt
+                &lttd&gt29&lt/td&gt
+              &lt/tr&gt
+            &lt/tbody&gt
+          &lt/table&gt</code>
+        </pre>
+        <p>Example of use:</p>
+        <p>With the <code>&lttable&gt&lt/table&gt</code> tag, the code above displays as:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alice</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>Bob</td>
+              <td>29</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="https://htmlreference.io/element/table/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>blockquote</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>&ltblockquote&gt&lt/blockquote&gt</code> tag lets us add long quotes to our site. This is a great way to display historical quotes or customer references!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>&ltblockquote cite="https://en.wikiquote.org/wiki/J._R._R._Tolkien"&gt
+            My political opinions lean more and more to Anarchy (philosophically understood, meaning abolition of control not whiskered men with bombs) … the most improper job of any man, even saints (who at any rate were at least unwilling to take it on), is bossing other men. Not one in a million is fit for it, and least of all those who seek the opportunity.&ltbr /&gt- JRR Tolkien
+          &lt/blockquote&gt</code>
+        </pre>
+        <p>Example of use:</p>
+        <p>With the <code>&ltblockquote&gt&lt/blockquote&gt</code> tag, the code above displays as:</p>
+        <blockquote cite="https://en.wikiquote.org/wiki/J._R._R._Tolkien">My political opinions lean more and more to Anarchy (philosophically understood, meaning abolition of control not whiskered men with bombs) … the most improper job of any man, even saints (who at any rate were at least unwilling to take it on), is bossing other men. Not one in a million is fit for it, and least of all those who seek the opportunity.<br />- JRR Tolkien</blockquote>
+        <a href="https://htmlreference.io/element/blockquote/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>code</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>&ltcode&gt&lt/code&gt</code> tag lets us add code blocks to our site. This is a great way to display code snippets for coding tutorials and I've been using this tag all over this page!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>&ltcode&gt
+            <span>& lt html & gt & lt/ html & gt</span> <--Spaces added so it won't convert the symbols
+          &lt/code&gt</code>
+        </pre>
+        <p>Example of use:</p>
+        <p>With the <code>&ltcode&gt&lt/code&gt</code> tag, the code above displays as:</p>
+        <code>&lthtml&gt&lt/html&gt</code>
+        <br />
+        <a href="https://htmlreference.io/element/code/" target="_blank">resource link</a>
+      </div>
+    </section>
+    <section id="CSS" class="section" title="I'm The CSS Section">
+      <h2 title="I'm an H2">CSS Things</h2>
+      <p title="I'm a p">Here are a few CSS things I like:</p>
+      <!-- Copy this Definition Div for each CSS thing you choose -->
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>display</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>display: display-type;</code> tag lets us choose the display style of the element. This is how you would change the display to something like <code>flex</code> so that we can have a more dynamic layout!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>body {
+            display: flex;</code>
+          }</pre>
+        <a href="https://cssreference.io/property/display/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>font-family</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>font-family: font-family-type;</code> tag lets us choose the font of the element to something like <code>sans-serif</code>!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>body {
+            font-family: sans-serif;</code>
+          }</pre>
+        <a href="https://cssreference.io/property/font-family/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>text-decoration</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>text-decoration: text-decoration-type;</code> tag lets us choose the text decoration of the element. This is how you would change a hyperlink to not have the underline!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>a {
+            text-decoration: none;</code>
+          }</pre>
+        <a href="https://cssreference.io/property/text-decoration/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>box-shadow</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>box-shadow: box-shadow-type;</code> tag lets us add a box-shadow to the element. This gives it a more 3D feel!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>body {
+            box-shadow: 2px 5px gray;</code>
+          }</pre>
+        <a href="https://cssreference.io/property/box-shadow/" target="_blank">resource link</a>
+      </div>
+      <div class="definition" title="I'm a Definition Div!">
+        <h3>list-style</h3>
+        <p>Describe this term, and make an example of how its used:</p>
+        <!-- EXAMPLE CODE GOES HERE -->
+        <p>The <code>list-style: list-style-type;</code> tag lets us remove the bullets in a list!</p>
+        <p>Code example:</p>
+        <pre title="i'm a pre tag for code!">
+          <code>ul {
+            list-style: none;</code>
+          }</pre>
+        <a href="https://cssreference.io/property/list-style/" target="_blank">resource link</a>
+      </div>
+    </section>
+    <footer>
+      <p>Made with gusto by <a href="https://github.com/ReginaFera13" target="_blank">Shawn Smith</a></p>
+    </footer>
+  </body>
 </html>
